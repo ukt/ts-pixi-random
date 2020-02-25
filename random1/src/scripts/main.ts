@@ -13,5 +13,6 @@ function load() {
     new App(engine)
         .addFpsMeter()
         .addBackground()
+        .addStars()
         .start();
 }

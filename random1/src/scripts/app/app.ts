@@ -1,6 +1,7 @@
 import {Engine} from "./Engine";
 import {FpsMeter} from "./components/FpsMeter";
 import {Background} from "./components/Background";
+import {Stars} from "./components/Stars";
 
 export class App {
 
@@ -12,6 +13,11 @@ export class App {
 
     public start():App {
         this.engine.render.run();
+        return this;
+    }
+
+    public addStars():App {
+        new Stars(this.engine);
         return this;
     }
 

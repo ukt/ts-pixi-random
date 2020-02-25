@@ -29,7 +29,7 @@
     "gulp-uglify-es": "^0.1.9",
     "gulp-util": "^3.0.8",
     "merge2": "^1.1.0",
-    "pixi-typescript": "pixijs/pixi-typescript#v4.x",
+    "pixi-typescript": "github:pixijs/pixi-typescript#v4.x",
     "pixi.js": "^4.5.3",
     "run-sequence": "^2.0.0",
     "tape": "^4.7.0",
@@ -61,5 +61,10 @@
     "main": "main.js",
     "bundle": "bundle.js",
     "port": 8080
-  }
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
 }
